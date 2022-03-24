@@ -50,7 +50,7 @@
 		padding:24px 30px;	
 	}
 	
-	.welcome-section-two .title-column .inner-column{
+	.features-section-two .title-column .inner-column{
 		padding-right:0;	
 	}
 	
@@ -282,8 +282,8 @@
 		font-size:36px;	
 	}
 	
-	.welcome-section-one .image-column .image img,
-	.welcome-section-two .image-column .image img{
+	.features-section-one .image-column .image img,
+	.features-section-two .image-column .image img{
 		max-width:100%;	
 	}
 	
@@ -352,7 +352,7 @@
 	}
 	
 	.banner-carousel .content-box .text,
-	.welcome-section .lower-box .text{
+	.features-section .lower-box .text{
 		font-size:18px;
 		line-height:1.6em;
 	}
