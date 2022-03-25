@@ -186,7 +186,7 @@
 		display:none;	
 	}
 	
-	.matches-section .matches-tabs .tab-btns .tab-btn{
+	.blogs-section .matches-tabs .tab-btns .tab-btn{
 		padding:15px 30px;	
 	}
 	
@@ -380,13 +380,13 @@
 		font-size:24px;	
 	}
 	
-	.matches-section .matches-tabs .tab-btns .tab-btn{
+	.blogs-section .matches-tabs .tab-btns .tab-btn{
 		width:100%;
 		text-align:center;
 		border-bottom:1px solid #2e2d2d;	
 	}
 	
-	.matches-section .matches-tabs .tab-btns .tab-btn:last-child{
+	.blogs-section .matches-tabs .tab-btns .tab-btn:last-child{
 		border:none;	
 	}
 	
