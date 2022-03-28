@@ -1,0 +1,107 @@
+.game-gallery-area .slider-nav {
+	max-width: 1080px;
+	position: unset;
+}
+.game-gallery-bg {
+	display: none;
+}
+.game-gallery-area.position-relative {
+	background-position: top center;
+	background-size: cover;
+	margin-bottom: 0;
+}
+.game-gallery-area.position-relative {
+    z-index: 1;
+    margin-bottom: -150px;
+}
+
+.p-0 {
+    padding: 0!important;
+}
+.fix {
+    overflow: hidden;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.game-gallery-active .slick-slide {
+    margin-top: 80px;
+    transition: .4s linear;
+}
+
+.game-gallery-active .slick-active.slick-center {
+    margin-top: 0;
+}
+
+.game-gallery-active .slick-slide {
+    margin-top: 80px;
+    transition: .4s linear;
+}
+.game-gallery-item {
+    text-align: center;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.game-gallery-item img {
+    max-width: 100%;
+    display: inline-block;
+}
+.game-gallery-active .slick-slide {
+    margin-top: 80px;
+    transition: .4s linear;
+}
+.slider-img {
+	right: 40px;
+}
+.slider-img.slider-img2 {
+	right: 210px;
+}
+.slider-active .slick-arrow {
+	opacity: 0;
+	transition: .3s linear;
+}
+.slider-active .slick-arrow {
+	left: 0;
+}
+.slider-active .slick-next {
+	right: 0;
+	left: auto;
+}
+.slider-active:hover .slick-arrow {
+	opacity: 1;
+}
+.slider-nav > span {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color: #bebebe;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.slider-nav > span.slick-next i {
+	margin-left: 5px;
+}
+.slider-nav > span.slick-prev i {
+	margin-right: 5px;
+}
+.slider-nav > span:hover {
+	color: #9595cc;
+}
+.game-gallery-area .slider-nav {
+    max-width: 1000px;
+    position: absolute;
+    bottom: 72px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

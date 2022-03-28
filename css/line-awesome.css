@@ -479,7 +479,7 @@
 .la-gratipay:before, .la-gittip:before { content: "\f21f"; }
 .la-group:before { content: "\f220"; }
 .la-h-square:before { content: "\f221"; }
-.la-hacker-news:before { content: "\f222"; }
+.la-hacker-blog:before { content: "\f222"; }
 .la-hand-grab-o:before { content: "\f223"; }
 .la-hand-lizard-o:before { content: "\f224"; }
 .la-hand-o-down:before { content: "\f225"; }
@@ -601,7 +601,7 @@
 .la-music:before { content: "\f299"; }
 .la-navicon:before { content: "\f29a"; }
 .la-neuter:before { content: "\f29b"; }
-.la-newspaper-o:before { content: "\f29c"; }
+.la-blogpaper-o:before { content: "\f29c"; }
 .la-object-group:before { content: "\f29d"; }
 .la-object-ungroup:before { content: "\f29e"; }
 .la-odnoklassniki:before { content: "\f29f"; }
