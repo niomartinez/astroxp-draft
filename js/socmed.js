@@ -2,13 +2,14 @@
 & Benjamin Vilina at https://codepen.io/BenjaminVilina/pen/XJwPEM */
 
 var contentArr = [
-    {title: 'company website', href: 'http://titanglobaltech.net/'},
-    {title: 'github', href: 'https://github.com/b1tn3r'},
-    {title: 'codepen', href: 'https://codepen.io/b1tn3r/'},
-    {title: 'facebook', href: 'https://www.facebook.com/TitanGlobalTech'},
-    {title: 'google+', href: 'https://plus.google.com/u/1/b/101737025633422868987/101737025633422868987'},
-    {title: 'twitter', href: 'https://twitter.com/TitanGlobalTech'},
-    {title: 'instagram', href: 'https://www.instagram.com/?hl=en'}
+    {title: 'company website', href: ''},
+    {title: 'github', href: 'https://github.com/Afante-Studios-AGC'},
+    {title: 'codepen', href: ''},
+    {title: 'facebook', href: 'https://www.facebook.com/astroxpofficial'},
+    {title: 'google+', href: ''},
+    {title: 'twitter', href: 'https://twitter.com/astroxpofficial'},
+    {title: 'discord', href: 'https://discord.gg/astroxpofficial'},
+    {title: 'instagram', href: ''}
   ]
   
   let instagramColor = 'radial-gradient(circle at 35% 90%, rgb(254, 197, 100), transparent 50%), radial-gradient(circle at 0px 140%, rgb(254, 197, 100), transparent 50%), radial-gradient(at 0px -25%, rgb(82, 88, 207), transparent 50%), radial-gradient(at 20% -50%, rgb(82, 88, 207), transparent 50%), radial-gradient(at 100% 0px, rgb(137, 61, 194), transparent 50%), radial-gradient(at 60% -20%, rgb(137, 61, 194), transparent 50%), radial-gradient(at 100% 100%, rgb(217, 49, 122), transparent), rgba(0, 0, 0, 0) linear-gradient(rgb(101, 89, 202), rgb(188, 49, 143) 30%, rgb(227, 63, 95) 50%, rgb(247, 118, 56) 70%, rgb(254, 198, 109) 100%)';
