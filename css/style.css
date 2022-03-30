@@ -5937,7 +5937,8 @@ Community Icons
 }
 @media only screen and (max-width: 460px) {
   .social-container {
-    height: 155px;
+    visibility: hidden;
+    position: absolute;
   }
   .social-item {
     width: 58px;
