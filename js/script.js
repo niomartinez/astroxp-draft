@@ -285,10 +285,15 @@
         var owlSlider = banner.querySelector(".owl-stage-outer");
         console.log(owlSlider);
 		var newHeight = window.innerHeight - document.getElementById('header').clientHeight;
-		owlSlider.style.height = newHeight + "px";
-		owlSlider.style.minHeight = newHeight + "px";
+		if($(window).width() < 1023){
+			console.log("resized to low reso");
+			owlSlider.style.height = newHeight + 131 + "px";
+			owlSlider.style.minHeight = newHeight + 131 + "px";
+		}else{
+			owlSlider.style.height = newHeight + "px";
+			owlSlider.style.minHeight = newHeight + "px";
+		}
 
-        console.log(newHeight);
 	  }
 	
 	$(document).ready(resizeCover);

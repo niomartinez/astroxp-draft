@@ -145,7 +145,20 @@
 	.sticky-header{
 		display: none !important;
 	}
-
+	.social-container {
+    position: absolute;
+    visibility: hidden;
+  }
+	.hide img{
+		visibility: hidden;
+	}
+	.main-header{
+		position: fixed;
+		top: 0;
+	}
+	.tokenomics-img{
+		height: 715px;
+	}
 	.nav-outer .mobile-nav-toggler{
 		display: block;
 		margin: 0;
@@ -508,11 +521,17 @@
 	}
 }
 
-@media only screen and (max-width: 599px){
+@media only screen and (max-width: 760px){
+	.hide img{
+		visibility: visible;
+	}
+	
+	.tokenomics-img{
+		height: 650px;
+	}
 	.main-header .header-top .top-left{
 		display:none;	
 	}
-	
 	.main-header .header-top .top-right{
 		width:100%;
 		text-align:center	
@@ -552,8 +571,60 @@
 	}
 }
 
+@media only screen and (max-width: 599px){
+	.main-header .header-top .top-left{
+		display:none;	
+	}
+	
+	.main-header .header-top .top-right{
+		width:100%;
+		text-align:center	
+	}
+	
+	.blog-block .inner-box .lower-content h3{
+		font-size:20px;	
+	}
+	
+	.match-single .team-box .match-item{
+		width:100%;
+		max-width:none;
+	}
+	
+	.tokenomics-img{
+		height: 615px;
+	}
+	
+	.match-single .team-box:before{
+		display:none;	
+	}
+	
+	.match-single .team-box .match-item:first-child{
+		margin-bottom:80px;	
+	}
+	
+	.match-single .team-box .match-item:first-child:before{
+		position: absolute;
+		bottom: -65px;
+		left: 50%;
+		content: 'vs';
+		width: 50px;
+		height: 50px;
+		color: #ffffff;
+		font-size: 20px;
+		line-height: 48px;
+		text-align: center;
+		background-color: #3786ff;
+		border: 1px solid #3786ff;
+		margin-left: -25px;	
+	}
+}
+
 @media only screen and (max-width: 479px) {
 
+	
+	.tokenomics-img{
+		height: 415px;
+	}
 	
 	.sidebar .search-box{
 		padding:20px 20px;	
