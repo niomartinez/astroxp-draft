@@ -16,7 +16,7 @@
 }
 .img-area {
   overflow: hidden;
-  padding: 15px 0 15px;
+  padding: 32px 0 15px;
 }
 .img-area img {
   margin: 0 auto;
@@ -37,6 +37,11 @@
 }
 .info-area h4 {
   font-weight: 600;
+  color: #BFBFBF;
+}
+.info-area h4 span {
+  font-weight: 600;
+  color: #8C6BC9;
 }
 .info-area h5 {
   color: #3b04db;
