@@ -17,6 +17,7 @@
 		position: unset;
 	
 }
+}
 
 @media only screen and (max-width: 1340px){
 	.banner-carousel .content-box h2{
@@ -155,6 +156,15 @@
 	.main-header{
 		position: fixed;
 		top: 0;
+	}
+	.slide-item div.two{
+		background-image: url(../images/main-slider/Vertical_Placeholder_Slider.png) !important;
+	}
+	.slide-item div.one{
+		background-image: url(../images/main-slider/Vertical_Placeholder_Slider.png) !important;
+	}
+	.slide-item div.three{
+		background-image: url(../images/main-slider/Vertical_Placeholder_Slider.png) !important;
 	}
 	.tokenomics-img{
 		height: 715px;

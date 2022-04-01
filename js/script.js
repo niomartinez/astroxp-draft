@@ -290,8 +290,8 @@
 			owlSlider.style.height = newHeight + 131 + "px";
 			owlSlider.style.minHeight = newHeight + 131 + "px";
 		}else{
-			owlSlider.style.height = newHeight + "px";
-			owlSlider.style.minHeight = newHeight + "px";
+		owlSlider.style.height = newHeight + "px";
+		owlSlider.style.minHeight = newHeight + "px";
 		}
 
 	  }
