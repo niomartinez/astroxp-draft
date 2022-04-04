@@ -613,6 +613,14 @@ figure {
   background-color: rgba(0, 0, 0, 0);
 }
 
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+
+
 .preloader .icon {
   position: fixed;
   left: 0px;
@@ -620,10 +628,11 @@ figure {
   width: 100%;
   height: 100%;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #1C1E2A;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url(../gif/axp-emoji.gif);
+  background-image: url(../gif/ASTRO-XP-ANIMATION_COLORED.gif);
+  background-size: 250px auto;
   -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
   -ms-transition: all 200ms ease;
@@ -642,7 +651,7 @@ figure {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #BFBFBF;
+  background: #101118;
   z-index: 0;
   -webkit-transform: translateX(0%);
   -ms-transform: translateX(0%);
@@ -666,8 +675,7 @@ figure {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
-  background: #3786ff;
+  background: #101118;
   z-index: 2;
   -webkit-transform: translateX(101%);
   -ms-transform: translateX(101%);
