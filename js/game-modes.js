@@ -35,7 +35,7 @@
           slidesToShow: 1,
           slidesToScroll: 1,
           centerPadding: "160px",
-          arrows: false,
+          arrows: true,
           infinite: true,
         },
       },
@@ -44,7 +44,7 @@
         settings: {
           slidesToShow: 1,
           centerPadding: "60px",
-          arrows: false,
+          arrows: true,
           slidesToScroll: 1,
         },
       },
@@ -53,8 +53,8 @@
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          centerPadding: "0px",
-          arrows: false,
+          centerPadding: "10px",
+          arrows: true,
         },
       },
       {
@@ -62,10 +62,12 @@
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          centerPadding: "0px",
-          arrows: false,
+          centerPadding: "10px",
+          arrows: true,
         },
       },
     ],
   });
+
+  
 })(jQuery);

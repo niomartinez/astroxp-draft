@@ -492,5 +492,5 @@ Particle.prototype = (function (o) {
         requestAnimationFrame(loop);
     };
     loop();
-
+    // gravity points credits to https://codepen.io/akm2/pen/AGgarW Akimitsu Hamamuro 
 })();
