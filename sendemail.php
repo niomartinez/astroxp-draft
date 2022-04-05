@@ -1,8 +1,7 @@
 <?php
 // Define some constants
 define( "RECIPIENT_NAME", "Astro XP" );
-define( "RECIPIENT_EMAIL", "nio.martinez@afantestudios.io" );
-
+define( "RECIPIENT_EMAIL", "inquiries@astroxp.io );
 
 // Read the form values
 $success = false;
@@ -13,8 +12,8 @@ $message = isset( $_POST['message'] ) ? preg_replace( "/(From:|To:|BCC:|CC:|Subj
 // If all values exist, send the email
 if ( $senderName && $senderEmail && $message) {
   $recipient = RECIPIENT_NAME . " <" . RECIPIENT_EMAIL . ">";
-  $headers = "From: " . $senderName . "";
-  $msgBody = " Email:". $senderEmail . "Message: " . $message . "";
+  $headers = "<b>Astro XP | Inquiries - From: " . $senderName . "</b>";
+  $msgBody = " Email:". $senderEmail . "\nMessage: \n" . $message . "";
   $success = mail( $recipient, $headers, $msgBody );
 
   //Set Location After Successsfull Submission
