@@ -1,7 +1,7 @@
 <?php
 // Define some constants
 define( "RECIPIENT_NAME", "Astro XP" );
-define( "RECIPIENT_EMAIL", "inquiries@astroxp.io );
+define( "RECIPIENT_EMAIL", "inquiries@astroxp.io" );
 
 // Read the form values
 $success = false;
