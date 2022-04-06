@@ -13,20 +13,19 @@ $message = isset( $_POST['message'] ) ? preg_replace( "/(From:|To:|BCC:|CC:|Subj
 if ( $fromName && $fromEmail && $message) {
   $sender = RECIPIENT_NAME . " <" . RECIPIENT_EMAIL . ">";
   $from = $fromName.' <'.$fromEmail.'>';
+  $subject = "Astro XP Inquiries - Astronian: " . $fromName . ""; 
 
-    $headers = "";
-    $headers .= "From: ". $from . "\n";
-    $headers .= "Cc: Astro XP <astroxp.official@astroxp.io>\n"; 
-    $headers .= "Subject: Astro XP Inquiries - Astronian: " . $fromName . "\n"; 
-    $headers .= "X-Sender: " . $sender . "\n";
+    $headers .= "From: ". $from . "\r\n";
+    $headers .= "Cc: Astro XP <astroxp.official@astroxp.io>\r\n"; 
+    $headers .= "X-Sender: " . $sender . "\r\n";
     $headers .= 'X-Mailer: PHP/' . phpversion();
-    $headers .= "X-Priority: 3\n";
-    $headers .= "Return-Path: astroxp.official@astroxp.io\n";
+    $headers .= "X-Priority: 3\r\n";
+    $headers .= "Return-Path: astroxp.official@astroxp.io\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
-    $headers .= "Content-Type: text/html; charset=iso-8859-1\n";
+    $headers .= "Content-Type: text/html; charset=iso-8859-1";
   
   $msgBody = $message;
-  $success = mail( $sender, $headers, $msgBody );
+  $success = mail( $sender, $subject, $msgBody, $headers );
 
   //Set Location After Successsfull Submission
   header('Location: contact.html?message=Successfull');
