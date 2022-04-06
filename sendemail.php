@@ -24,7 +24,7 @@ if ( $fromName && $fromEmail && $message) {
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=iso-8859-1";
   
-  $msgBody = $message;
+  $msgBody = nl2br($message);
   $success = mail( $sender, $subject, $msgBody, $headers );
 
   //Set Location After Successsfull Submission
