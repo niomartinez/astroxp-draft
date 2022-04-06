@@ -1,6 +1,6 @@
 <?php
 // Define some constants
-define( "RECIPIENT_NAME", "Astro XP" );
+define( "RECIPIENT_NAME", "Astro XP Inquiries" );
 define( "RECIPIENT_EMAIL", "inquiries@astroxp.io" );
 
 // Read the form values
@@ -16,7 +16,7 @@ if ( $fromName && $fromEmail && $message) {
   $subject = "Astro XP Inquiries - Astronian: " . $fromName . ""; 
 
     $headers .= "From: ". $from . "\r\n";
-    $headers .= "Cc: Astro XP <astroxp.official@astroxp.io>\r\n"; 
+    $headers .= "Cc: Astro XP Official <astroxp.official@astroxp.io>\r\n"; 
     $headers .= "X-Sender: " . $sender . "\r\n";
     $headers .= 'X-Mailer: PHP/' . phpversion();
     $headers .= "X-Priority: 3\r\n";
